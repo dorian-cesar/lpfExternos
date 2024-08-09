@@ -2,7 +2,7 @@
 
 set_time_limit(1200);
 
-function lpf($user, $pasw) {
+function lpf($user, $pasw, $name) {
     include "conexion.php";
 
     $consulta = "SELECT hash FROM masgps.hash WHERE user='$user' AND pasw='$pasw'";
@@ -112,12 +112,12 @@ function lpf($user, $pasw) {
                 $group = $trackers[$id]['group'] ?? 'NULL';
 
                 $sql = "INSERT INTO lpfExternos2 (cuenta, id_tracker, `lat`, `lng`, `patente`, `fecha`, `last_update`, `imei`, `connection_status`, `grupo`) 
-                        VALUES ('$user', '$id', '$lat', '$lng', '$plate', '$hoy', '$last_u', '$imei', '$status', '$group')";
+                        VALUES ('$name', '$id', '$lat', '$lng', '$plate', '$hoy', '$last_u', '$imei', '$status', '$group')";
 
                 $datosduplicados = mysqli_query($mysqli, "SELECT * FROM lpfExternos2 WHERE id_tracker='$id'");
 
                 if (mysqli_num_rows($datosduplicados) > 0) {
-                    $sql1 = "UPDATE lpfExternos2 SET `lat`='$lat', `lng`='$lng', `last_update`='$last_u', `fecha`='$hoy', `cuenta`='$user', `imei`='$imei', `connection_status`='$status', `grupo`='$group' 
+                    $sql1 = "UPDATE lpfExternos2 SET `lat`='$lat', `lng`='$lng', `last_update`='$last_u', `fecha`='$hoy', `cuenta`='$name', `imei`='$imei', `connection_status`='$status', `grupo`='$group' 
                              WHERE `id_tracker`='$id'";
                     if (!mysqli_query($mysqli, $sql1)) {
                         die("Error en la actualización de id_tracker = $id: " . mysqli_error($mysqli));

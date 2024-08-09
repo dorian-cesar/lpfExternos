@@ -1,11 +1,10 @@
 <?php 
 
-$user="AndesMar";
+$user="TransportesVillarroel";
 $pasw="123";
-$name='Andesmar';
+$name='Transporte Villaroel';
 
 include __DIR__.'/test.php' ;
-
 lpf($user,$pasw,$name);
 
 ?>

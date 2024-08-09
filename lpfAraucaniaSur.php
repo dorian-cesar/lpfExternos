@@ -2,9 +2,10 @@
 
 $user="AraucaniaSur";
 $pasw="123";
+$name='Servicio de Salud de la Araucania Sur';
 
-include "./test.php" ;
+include __DIR__.'/test.php' ;
 
-lpf($user,$pasw);
+lpf($user,$pasw,$name);
 
 ?>

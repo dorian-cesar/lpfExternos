@@ -1,0 +1,10 @@
+00 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/test/pullman-sistema-vehiculos/main.php >>info.md
+10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/mov-no-autorizados/movimientos.php
+
+10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAndesMar.php
+10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAraucania.php
+10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAndesMar.php
+10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAndesMar.php
+10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAndesMar.php
+10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAndesMar.php
+10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAndesMar.php

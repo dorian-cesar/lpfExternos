@@ -2,9 +2,10 @@
 
 $user="CloudB2B";
 $pasw="123";
+$name='CloudB2B';
 
-include "./test.php" ;
+include __DIR__.'/test.php' ;
 
-lpf($user,$pasw);
+lpf($user,$pasw,$name);
 
 ?>

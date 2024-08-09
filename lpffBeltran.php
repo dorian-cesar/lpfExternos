@@ -1,8 +1,8 @@
 <?php 
 
-$user="AndesMar";
+$user="fBeltran";
 $pasw="123";
-$name='Andesmar';
+$name='Fernando Beltran';
 
 include __DIR__.'/test.php' ;
 

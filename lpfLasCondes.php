@@ -2,9 +2,10 @@
 
 $user="lasCondes";
 $pasw="123";
+$name='Municipalidad de Las Condes';
 
-include "./test.php" ;
+include __DIR__.'/test.php' ;
 
-lpf($user,$pasw);
+lpf($user,$pasw,$name);
 
 ?>

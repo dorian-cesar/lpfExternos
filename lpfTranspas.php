@@ -2,9 +2,9 @@
 
 $user="Transpas";
 $pasw="123";
+$name='Transpas';
 
-include "./test.php" ;
-
-lpf($user,$pasw);
+include __DIR__.'/test.php' ;
+lpf($user,$pasw,$name);
 
 ?>

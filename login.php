@@ -1,7 +1,7 @@
 <?php
 
 
-$user='monitoreomreina@masgps.cl';
+$user='Monitoreotip@masgps.cl';
 $pasw='Monitoreo2024.';
 
 
