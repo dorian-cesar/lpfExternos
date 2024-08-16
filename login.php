@@ -1,8 +1,8 @@
 <?php
 
 
-$user='Monitoreotip@masgps.cl';
-$pasw='Monitoreo2024.';
+$user='integracionMDLC@masgps.cl';
+$pasw='Integracion2024.';
 
 
  function login ($user,$pasw){

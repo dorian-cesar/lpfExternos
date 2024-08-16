@@ -1,10 +1,23 @@
 00 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/test/pullman-sistema-vehiculos/main.php >>info.md
 10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/mov-no-autorizados/movimientos.php
 
-10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAndesMar.php
-10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAraucania.php
-10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAndesMar.php
-10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAndesMar.php
-10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAndesMar.php
-10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAndesMar.php
-10 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAndesMar.php
+15 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAgricolaSur.php
+20 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAndesMar.php
+25 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfAraucaniaSur.php
+30 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfCloudB2B.php
+35 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfeMorales.php
+40 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpffBeltran.php
+45 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfIngeGroup.php
+50 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfLaReina.php
+55 4 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfLasCondes.php
+05 5 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfmReyes.php
+10 5 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfParticulares.php
+15 5 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfRentaBus.php
+20 5 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfSanClemente.php
+25 5 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfSantaVictoria.php
+30 5 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfssvq.php
+35 5 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfTacoa.php
+40 5 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfTranspas.php
+45 5 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfTransportesTip.php
+50 5 * * * /opt/bitnami/php/bin/php /home/bitnami/htdocs/lpfExternos/lpfTransportesVillarroel.php
+

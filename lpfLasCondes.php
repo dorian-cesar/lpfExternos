@@ -1,6 +1,6 @@
 <?php 
 
-$user="lasCondes";
+$user="Camara";
 $pasw="123";
 $name='Municipalidad de Las Condes';
 
