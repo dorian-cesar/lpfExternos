@@ -13,7 +13,9 @@ function lpf($user, $pasw, $name) {
     }
 
     $data = mysqli_fetch_array($resultado);
+    echo 
     $hash = $data['hash'];
+    echo '<br>';
 
     date_default_timezone_set("America/Santiago");
     $hoy = date("Y-m-d");
